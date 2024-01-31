@@ -1,0 +1,305 @@
+/*ANCHOR  ================================================================ GENERAL ================================================================  */
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  background-color: #3b291f;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #532815;
+}
+
+/*ANCHOR  ================================================================ HEADER ================================================================  */
+
+.mw1320 {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*ANCHOR ======================== LOGO Let's Cook ======================== */
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 100%;
+  max-width: 100px;
+  min-width: 100px;
+  padding: 10px;
+}
+
+/*ANCHOR ======================== lIENS Accueil-Recettes-Tendances ======================== */
+
+.navlinks {
+  margin-right: 900px;
+}
+
+.navlinks ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  max-width: 100%;
+  max-width: 100px;
+  min-width: 100px;
+}
+
+.navlinks h6 {
+  margin: 0 10px;
+  color: #fff;
+  font-size: large;
+  font-family: "Roboto", sans-serif;
+}
+
+/*ANCHOR ======================== BARRE DE RECHERCHE ======================== */
+
+.headersearch {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 30px;
+}
+
+.headersearch button {
+  background-color: #3b291f;
+}
+
+/*ANCHOR ================================================================ BODY ================================================================*/
+
+.title h1 {
+  color: #2a6914;
+  font-family: "Comfortaa", sans-serif;
+  font-size: relative;
+  margin-left: auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+/*ANCHOR ======================== ARTICLES DU BLOG ======================== */
+
+.maincontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+
+  max-width: 1320px;
+  margin: auto;
+}
+
+.column {
+  flex-basis: 400px;
+  flex-grow: 1;
+
+  box-sizing: border-box;
+  box-shadow: 5px 1px 3px rgba(192, 191, 191, 0.984),
+    0 1px 2px rgba(203, 201, 201, 0.24);
+  border-radius: 3px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.column img {
+  max-width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+/*ANCHOR ================== MISE EN FORME textes des articles ================== */
+/* Mise en forme des textes regroupée ici pour un code css plus clair */
+
+.texte h2 {
+  font-family: "Comfortaa", sans-serif;
+  font-size: relative;
+  color: #2a6914;
+}
+
+.texte h5 {
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+  text-decoration: underline;
+  color: #333;
+}
+.texte p {
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+  color: #333;
+}
+.texte h3 {
+  margin-left: 300px;
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+  text-decoration: underline;
+  color: #2a6914;
+}
+
+/*ANCHOR ============================ FOOTER image carotte ============================ */
+
+/* Image placé en dehors du footer pour éviter un décalage avec ce dernier*/
+.footerimage {
+  background-image: url("../images/cooking-svg.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-bottom: -4px;
+
+  min-height: 400px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* ANCHOR  ================================================================ FOOTER ================================================================  */
+
+footer {
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1300px;
+}
+
+/*ANCHOR ============================ GRID 1 ============================ */
+
+.footer__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1320px;
+  margin: auto;
+}
+
+.grid {
+  flex: 1 1 300px;
+}
+
+.grid1 ul {
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+  color: #fff;
+}
+
+.grid1 h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+  color: #fff;
+  text-decoration: underline;
+}
+
+/*ANCHOR ============================ GRID 2 ============================ */
+
+.grid2 h4 {
+  color: #fff;
+  font-size: large;
+  font-family: "Comfortaa", sans-serif;
+  margin-left: auto;
+}
+
+/*ANCHOR ============== Favicons réseaux sociaux ============== */
+
+.social {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  margin-left: 100px;
+}
+
+/*ANCHOR ============================ GRID 3 ============================ */
+
+.grid3 h4 {
+  font-family: "Comfortaa", sans-serif;
+  color: #fff;
+}
+.grid3 h5 {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+.grid3 p {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+/*ANCHOR ============================ Footer Line ============================ */
+
+.line hr {
+  border-width: 1px;
+  color: #fff;
+}
+
+.linetext {
+  font-size: small;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+/*ANCHOR ============================ Media queries ============================ */
+
+@media screen and (max-width: 360px) {
+  /*ANCHOR ============================HEADER============================ */
+
+  .navlinks {
+    margin-right: 10px;
+  }
+
+  .navlinks ul {
+    max-width: 100%;
+    max-width: 100px;
+    padding-right: 110px;
+  }
+
+  .navlinks h6 {
+    margin: 5px;
+  }
+
+  .headersearch {
+    padding: 55px;
+    padding-right: 0px;
+  }
+
+  .headersearch input {
+    width: 80%;
+  }
+}

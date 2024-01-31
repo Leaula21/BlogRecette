@@ -1,0 +1,25 @@
+@media screen and (max-width: 360px) {
+   /*ANCHOR ============== Header ============== */
+   .navlinks {
+    margin-right: 10px; 
+}
+
+/*ANCHOR ============== Body ============== */
+.title h1 {
+    margin-left: 10px; 
+}
+
+.maincontainer {
+    gap: 5px;
+    margin: 5px;
+    max-width: 360px;
+   
+}
+
+.column {
+    display: flex;
+    flex-basis: 100%; 
+    margin-bottom: 10px; 
+    max-width: 100%;
+} 
+}
